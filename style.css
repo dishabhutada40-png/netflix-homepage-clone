@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.hero-background{
+    height: 100vh;
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,0.8),
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.8)
+        ),
+        url("background.jfif");
+    background-size: cover;    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+.up{
+    height: 80px;
+    width: 80%;
+}
+.logo{
+    background-image: url("logo.jpg");
+    height: 50px;
+    width: 150px;
+    filter: drop-shadow(0 0 8px black);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: 15px;
+}
+.lang{
+    position: absolute;
+    right: 160px;
+    margin-top: 30px;
+}
+
+#lang1{
+    color: white;
+    font-weight: lighter;
+    height: 32px;
+    width: 120px;
+    font-size: 17px;
+    background-color: black;
+    border: 0.3px solid rgb(117, 117, 117);
+    border-radius: 4px;
+}
+#lang1:hover{
+    border: 1px solid white;
+}
+
+#lang2{
+    color: white;
+    font-weight: lighter;
+    height: 32px;
+    width: 80px;
+    font-size: 15px;
+    background-color: red;
+    border: 0.3px solid red;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+#lang2:hover{
+    background-color: rgba(188, 39, 39, 0.8);
+    border: 0.3px solid rgba(188, 39, 39, 0.8);
+}
+
+.main{
+    color: white;
+    text-align: center;
+    font-size: larger;
+    position: absolute;
+    align-self: center;
+}
+
+.m1{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;    
+    margin-bottom: 15px;
+    font-size: 3.4rem;
+}
+.m2{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 540;
+    font-size: 18px;    
+    margin-bottom: 12px;
+}
+.m3{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 540;
+    font-size: 16px;   
+    margin-top: 25px; 
+    margin-bottom: 8px;
+}
+#mail{
+    background-color: black;
+    border: 0.3px solid rgb(117, 117, 117);
+    border-radius: 3px;
+    height: 48px;
+    width: 402px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+}
+#start{
+    height: 48px;
+    width: 160px;
+    background-color: red;
+    border: 0.3px solid red;
+    border-radius: 3px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 548;
+}
+
+main{
+    background-color: black;
+    color: white;
+}
+
+.t{
+    position: relative;
+}
+
+#t1{
+    background: radial-gradient(50% 500% at 50% -390%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+    height: 50px;
+    width: 100%;
+    color: white;
+}
+#t2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    position: absolute;
+    left: 70px;
+    top: 30px;
+}
+
+.trend{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    height: 200px;
+    width: 150px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-right: 28px;
+    background-size: cover;
+    position: relative;
+}
+
+.box i{
+    position: absolute;
+    right: 100px;
+    bottom: 25px;
+    font-size: 70px;
+}
+
+.join{
+    position: relative;
+}
+
+#j1{
+    height: 50px;
+    width: 100%;
+    color: white;
+}
+#j2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    position: absolute;
+    left: 70px;
+    top: 30px;
+}
+.reason{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.reas{
+    height: 180px;
+    width: 320px;
+    border: 0.1px solid rgb(117, 117, 117);
+    margin-left: 28px;
+    background: radial-gradient(60% 500% at 70% -350%, rgba(128, 55, 55, 0.4) 80%, rgba(47, 29, 76, 0.1) 100%), black;
+}
+.reas h2{
+    margin-top: 10px;
+    margin-left: 8px;
+    font-size: 20px;
+    color: #f1ebebe3;
+}
+.reas p{
+    margin-top: 15px;
+    margin-left: 8px;
+    font-size: 16px;
+    color: #ffffffB3;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.foot-panel1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    color: #dddddd;
+}
+
+.foot-panel2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #dddddd;
+}
